@@ -5,7 +5,7 @@ and using the c ++ implementation by Felipe Farinon (https://scarvenger.wordpres
 For this link you need a reference list (ASCII-txt) and a correct list or code (ASCII-txt in order with reference) that will create a the new
 csv file.
 The code is made in C/C++ language the compiled version in release for download (https://github.com/rafaelduartenom/FindSpellingMath/releases)
-was using MingW/GCC for use in windows 7,8,10 (32bits). Is executed in line command or using the run.bat (script more easy
+was using MingW/GCC for use in windows 7,8,10. Is executed in line command or using the run.bat (script more easy
 to use).
 # FindSpellingMath
 Descrição em português:
