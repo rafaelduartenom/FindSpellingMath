@@ -1,5 +1,5 @@
 /*
- * FindSpellingMath.cpp
+ * FindSpellingMath
  *
  * Copyright  (C)  2015  Rafael Duarte <rafael_spc&hotmail.com>
  *
@@ -49,7 +49,7 @@
 #define N2 1000
 
 void deblank(char *input);
-void TiraAcentos(char *s1, int len);//remove ascents from http://www.portugal-a-programar.pt/topic/35527-tirar-acentos-a-uma-string/
+void TiraAcentos(char *s1, int len);//remove ascents
 void to_lowercase(char *input);
 int find_id_title(char *title_name, char *csv_name);
 int row_count(int id_colum, char *csv_name);
@@ -151,9 +151,6 @@ int main(int argc, char *argv[])
     else{
         for(i=0;i<number_lines;i++)
             {
-                if (i==0){
-                    printf("teste");
-                   }
              out[i][j] = (char*)malloc(strlen(inp[i][j]) + 1);
              //fprintf (txt_saida,"%s\n",inp[i][j]);
              strcpy(out[i][j],inp[i][j]);
