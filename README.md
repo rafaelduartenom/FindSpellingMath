@@ -12,8 +12,7 @@ Descrição em português:
 Com base na implementação de Peter Norvig baseado Corretor Ortográfico ( http://norvig.com/spell-correct.html )
 e usando a implementação c ++ por Felipe Farinon ( https://scarvenger.wordpress.com/2007/12/11/how-to-write-a-spelling-corrector/ )
 , Este programa lê um arquivo CSV com palavras incorretas e gerar um novo arquivo CSV com texto representante correto ou código.
-Para esta ligação você precisa de uma lista de referência (ASCII - txt) e uma lista ou código correto (ASCII - txt em ordem com referência) que irá criar um novo
+Para esta ligação você precisa de uma lista de referência (ASCII - txt) e uma lista ou código correto (ASCII - txt em mesma seguência com o arquivo de referência) que irá criar um novo
 arquivo CSV.
 O código é feito em C / C ++ idioma a versão compilada no link para download ( https://github.com/rafaelduartenom/FindSpellingMath/releases )
-foi utilizado MingW / GCC para uso em Windows 7,8,10 ( 32bits ). É executado na linha de comando ou usando o run.bat (script para mais fácil
-utilização).
+foi utilizado MingW / GCC para uso em Windows 7,8,10 ( 32bits ). É executado na linha de comando ou usando o run.bat (script para mais fácil utilização).
